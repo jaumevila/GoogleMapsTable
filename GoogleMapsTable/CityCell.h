@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CityCell.h
 //  GoogleMapsTable
 //
 //  Created by ioas on 10/03/14.
@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface CityCell : UITableViewCell
+@property (weak, nonatomic) IBOutlet UILabel *cityName;
 
 @end

@@ -14,7 +14,6 @@
 		C0BEA06218CE0241002E75AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BEA06118CE0241002E75AC /* main.m */; };
 		C0BEA06618CE0241002E75AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BEA06518CE0241002E75AC /* AppDelegate.m */; };
 		C0BEA06918CE0241002E75AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0BEA06718CE0241002E75AC /* Main.storyboard */; };
-		C0BEA06C18CE0241002E75AC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BEA06B18CE0241002E75AC /* ViewController.m */; };
 		C0BEA06E18CE0241002E75AC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0BEA06D18CE0241002E75AC /* Images.xcassets */; };
 		C0BEA07518CE0241002E75AC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0BEA07418CE0241002E75AC /* XCTest.framework */; };
 		C0BEA07618CE0241002E75AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0BEA05518CE0241002E75AC /* Foundation.framework */; };
@@ -35,6 +34,9 @@
 		C0BEA0A318CE0463002E75AC /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0BEA09718CE0463002E75AC /* OpenGLES.framework */; };
 		C0BEA0A418CE0463002E75AC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0BEA09818CE0463002E75AC /* QuartzCore.framework */; };
 		C0BEA0A518CE0463002E75AC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0BEA09918CE0463002E75AC /* SystemConfiguration.framework */; };
+		C0BEA0A818CE0984002E75AC /* CityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BEA0A718CE0984002E75AC /* CityViewController.m */; };
+		C0BEA0AB18CE1243002E75AC /* CitiesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BEA0AA18CE1243002E75AC /* CitiesTableViewController.m */; };
+		C0BEA0AE18CE1269002E75AC /* CityCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C0BEA0AD18CE1269002E75AC /* CityCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,8 +61,6 @@
 		C0BEA06418CE0241002E75AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C0BEA06518CE0241002E75AC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C0BEA06818CE0241002E75AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C0BEA06A18CE0241002E75AC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C0BEA06B18CE0241002E75AC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C0BEA06D18CE0241002E75AC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C0BEA07318CE0241002E75AC /* GoogleMapsTableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleMapsTableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0BEA07418CE0241002E75AC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -81,6 +81,12 @@
 		C0BEA09718CE0463002E75AC /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		C0BEA09818CE0463002E75AC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		C0BEA09918CE0463002E75AC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C0BEA0A618CE0984002E75AC /* CityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityViewController.h; sourceTree = "<group>"; };
+		C0BEA0A718CE0984002E75AC /* CityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityViewController.m; sourceTree = "<group>"; };
+		C0BEA0A918CE1243002E75AC /* CitiesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CitiesTableViewController.h; sourceTree = "<group>"; };
+		C0BEA0AA18CE1243002E75AC /* CitiesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CitiesTableViewController.m; sourceTree = "<group>"; };
+		C0BEA0AC18CE1269002E75AC /* CityCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityCell.h; sourceTree = "<group>"; };
+		C0BEA0AD18CE1269002E75AC /* CityCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,10 +176,14 @@
 				C0BEA06418CE0241002E75AC /* AppDelegate.h */,
 				C0BEA06518CE0241002E75AC /* AppDelegate.m */,
 				C0BEA06718CE0241002E75AC /* Main.storyboard */,
-				C0BEA06A18CE0241002E75AC /* ViewController.h */,
-				C0BEA06B18CE0241002E75AC /* ViewController.m */,
 				C0BEA06D18CE0241002E75AC /* Images.xcassets */,
 				C0BEA05C18CE0241002E75AC /* Supporting Files */,
+				C0BEA0A618CE0984002E75AC /* CityViewController.h */,
+				C0BEA0A718CE0984002E75AC /* CityViewController.m */,
+				C0BEA0A918CE1243002E75AC /* CitiesTableViewController.h */,
+				C0BEA0AA18CE1243002E75AC /* CitiesTableViewController.m */,
+				C0BEA0AC18CE1269002E75AC /* CityCell.h */,
+				C0BEA0AD18CE1269002E75AC /* CityCell.m */,
 			);
 			path = GoogleMapsTable;
 			sourceTree = "<group>";
@@ -305,8 +315,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0BEA06C18CE0241002E75AC /* ViewController.m in Sources */,
+				C0BEA0A818CE0984002E75AC /* CityViewController.m in Sources */,
+				C0BEA0AE18CE1269002E75AC /* CityCell.m in Sources */,
 				C0BEA06618CE0241002E75AC /* AppDelegate.m in Sources */,
+				C0BEA0AB18CE1243002E75AC /* CitiesTableViewController.m in Sources */,
 				C0BEA06218CE0241002E75AC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
